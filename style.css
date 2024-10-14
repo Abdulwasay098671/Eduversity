@@ -1,0 +1,751 @@
+@font-face {
+    font-family: "bld";
+    src: url(./fonts/Glancyr-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: "tol";
+    src: url(./fonts/Glancyr-Bold.otf);
+}
+
+@font-face {
+    font-family: "lot";
+    src: url(./fonts/Glancyr-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: "pot";
+    src: url(./fonts/Glancyr-ExtraLightItalic.otf);
+}
+
+@font-face {
+    font-family: "top";
+    src: url(./fonts/Glancyr-Italic.otf);
+}
+
+@font-face {
+    font-family: "lop";
+    src: url(./fonts/Glancyr-Light.otf);
+}
+
+@font-face {
+    font-family: "lol";
+    src: url(./fonts/Glancyr-LightItalic.otf);
+}
+
+@font-face {
+    font-family: "pok";
+    src: url(./fonts/Glancyr-Medium.otf);
+}
+
+@font-face {
+    font-family: "oil";
+    src: url(./fonts/Glancyr-MediumItalic.otf);
+}
+
+@font-face {
+    font-family: "soil";
+    src: url(./fonts/Glancyr-Regular.otf);
+}
+
+@font-face {
+    font-family: "coil";
+    src: url(./fonts/Glancyr-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "nail";
+    src: url(./fonts/Glancyr-SemiBoldItalic.otf);
+}
+
+@font-face {
+    font-family: "mail";
+    src: url(./fonts/Glancyr-Thin.otf);
+}
+
+@font-face {
+    font-family: "play";
+    src: url(./fonts/Glancyr-ThinItalic.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: black;
+    color: white;
+    padding-bottom: 6%;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.inner-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.center {
+    display: flex;
+    font-family: "mail";
+}
+
+.center ul li {
+    list-style: none;
+    margin: 0 20px;
+    font-size: 30px;
+}
+
+.btn {
+    padding: 6px 15px;
+    border: 0;
+    font-size: 30px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    font-family: "soil";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 {
+    padding: 5px 30px;
+    border: 0;
+    background-color: rgb(212, 255, 0);
+    font-family: "coil";
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.svg {
+    width: 30px;
+    height: 20px;
+}
+
+.login {
+    padding: 12px 8px;
+    background-color: rgb(19, 19, 19);
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    font-family: "bld";
+    font-size: 50px;
+}
+
+.heading1 {
+    font-family: "tol";
+    margin-top: 20px;
+    font-size: 75px;
+}
+
+.heading2 {
+    font-family: "lop";
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.para {
+    font-family: "mail";
+    font-size: 19px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.category-container {
+    display: flex;
+}
+
+.online {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    margin: 0px 10px;
+    font-family: "mail";
+    font-size: 22px;
+    margin-top: 20px;
+
+}
+
+.flexibility {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    font-family: "mail";
+    font-size: 22px;
+    margin: 0px 10px;
+    margin-top: 20px;
+}
+
+.certified {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    font-family: "mail";
+    font-size: 22px;
+    margin: 0px 10px;
+    margin-top: 20px;
+}
+
+.u-l {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.discover-button {
+    background-color: rgb(212, 255, 0);
+    border: 0;
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-family: "coil";
+    font-size: 20px;
+    margin-top: 30px;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-button {
+    margin-left: 10px;
+    padding: 8px;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-side {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.lastheadin {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "soil";
+    margin: 0 auto;
+    margin-top: 20px;
+    color: rgb(173, 173, 173);
+}
+
+.png {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.last-paragraph {
+    font-family: "bld";
+    font-size: 22px;
+    color: rgb(87, 87, 87);
+    margin-top: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-s {
+    margin-left: 20px;
+}
+
+.firstheading {
+    font-family: "bld";
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondheading {
+    font-family: "bld";
+    font-size: 60px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.count1 {
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    font-family: "soil";
+    font-size: 30px;
+    background-color: rgb(212, 255, 0);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count2 {
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    font-family: "soil";
+    font-size: 30px;
+    background-color: rgb(217, 217, 217);
+}
+
+.count3 {
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "soil";
+    margin-left: 20px;
+    font-size: 30px;
+    font-size: 30px;
+    background-color: rgb(217, 217, 217);
+}
+
+.exp-head {
+    font-family: "bld";
+    margin-top: 60px;
+
+}
+
+.exp-head1 {
+    margin-top: 70px;
+    font-family: "coil";
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.main-box {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.exp-para {
+    font-family: "bld";
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.secphoto {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(212, 255, 0);
+    font-family: "coil";
+    font-size: 35px;
+    margin-left: 17px;
+    margin-right: 17px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.secphoto span {
+    /* margin-left: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-line-photo {
+    display: flex;
+    align-items: center;
+
+}
+
+.s-line-photo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 10px;
+
+}
+
+.secphoto2 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+   
+    background-color: rgb(212, 255, 0);
+    font-family: "coil";
+    font-size: 35px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.time-sand{
+    width: 35px;
+    margin-bottom: 18PX;
+}
+
+.t-line-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.gallery-container {
+    margin-left: 16px;
+    margin-top: 30px;
+}
+
+.main2 {
+    background-color: rgb(237, 237, 237);
+}
+
+.count2-1 {
+    width: 40px;
+    height: 40px;
+    font-family: "soil";
+    padding-top: 5px;
+    font-size: 30px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count2-2 {
+    width: 40px;
+    height: 40px;
+    font-family: "soil";
+    font-size: 30px;
+    background-color: rgb(212, 255, 0);
+    border-radius: 50%;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count2-3 {
+    width: 40px;
+    height: 40px;
+    font-family: "soil";
+    font-size: 30px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 50%;
+    display: flex;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.counting2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 250px;
+    gap: 20px;
+}
+
+.thirh-box {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    gap: 200px;
+}
+
+.image-r {
+    margin-top: 90px;
+}
+
+.heading9 {
+    font-family: "bld";
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.haeding10 {
+    font-family: "soil";
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.count3-1 {
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    font-family: "soil";
+    font-size: 30px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count3-2 {
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    font-family: "soil";
+    font-size: 30px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count3-3 {
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    font-family: "soil";
+    font-size: 30px;
+    background-color: rgb(212, 255, 0);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counting3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 230px;
+    gap: 20px;
+}
+
+.fourth-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 50px;
+    gap: 120px;
+    margin-bottom: 150px;
+}
+
+.exp-head2 {
+    margin-top: 50px;
+    font-family: "coil";
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.fifth {
+    position: relative;
+    bottom: -170px;
+    z-index: 1;
+    height: 55vh;
+    background-color: white;
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    border-radius: 10px;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.exp-head5 {
+    position: absolute;
+    top: -120px;
+    font-family: "oil";
+    font-size: 75px;
+    margin-left: 150px;
+    background-position: 0% 100%;
+    width: 14%;
+    height: 26vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-image: url("./Group.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(212, 255, 0);
+}
+
+.exp-head4 {
+    font-family: "soil";
+    font-size: 50px;
+    margin-left: 100px;
+
+}
+
+.exp-para1 {
+    font-family: "bld";
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    margin-left: 100px;
+}
+
+.h1-text {
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-family: soil;
+}
+
+.sixth {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding-top: 230px;
+    padding-bottom: 100px;
+
+}
+
+.span-text {
+    font-family: bld;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.h1-text1 {
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-family: soil;
+}
+
+.sixth-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.span-text1 {
+    font-family: bld;
+    font-size: 30px;
+    margin-left: 40px;
+
+}
+
+.span-text2 {
+    font-family: bld;
+    font-size: 30px;
+    margin-left: 40px;
+    line-height: 60px;
+
+}
+
+.span-text3 {
+    font-family: bld;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.bulb {
+    margin-left: 30px;
+}
+.end-div{
+    width: 70%;
+margin: 0px auto ;
+   height: 15vh;
+   gap: 20px;
+   border-radius: 50px;
+   display: flex;
+   background-color: rgb(255,255,255);
+   align-items: center;
+   justify-content: center;    
+  
+   margin-top: 30px;
+}
+.end-btn{
+    padding: 20px 60px;
+    border: 0;
+    font-family: bld;
+    font-size: 25px;
+    background-color: black;
+    color: rgb(255,255,255);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.end-btn1{
+    padding: 20px 60px;
+    border: 0;
+    font-family: bld;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255,255,255);
+    gap: 20px;
+    border-radius: 30px;
+}.end-btn2{
+    padding: 20px 60px;
+    border: 0;
+    background-color: rgb(255,255,255);
+    font-family: bld;
+    font-size: 25px;
+    
+    border-radius: 30px;
+}.end-btn3{
+    padding: 20px 60px;
+    border: 0;
+    font-family: bld;
+    font-size: 25px;
+    background-color: rgb(255,255,255);
+    border-radius: 30px;
+}
